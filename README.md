@@ -39,7 +39,7 @@ Defined specific software testing titles that would be included in the research 
 ### Phase 5: Data Enrichment
 - **Tool**: JavaScript with WebDriver automation
 - **Purpose**: Extract detailed job descriptions for analysis
-- **Final Enriched Dataset**: 3,714 job postings (removed positions that couldn't be enriched automatically since they were no public)
+- **Final Enriched Dataset**: 3,714 job postings (removed positions that couldn't be enriched automatically since they were no public), also, applying a second filter to identify posting that mention test automation as an expression instead of a tool name.
 
 ### Phase 6: Description Analysis
 - **Method**: JavaScript-based keyword analysis
@@ -122,7 +122,10 @@ The `2025-09/` folder contains the complete dataset evolution through the resear
    - Filtered version containing only confirmed testing-related positions
    - Quality-assured dataset for focused testing job market analysis
 
-4. **`enriched-dataset-with-non-testing-related.json`**
+4. **`enriched-dataset-final.json`** (3,714 records)
+   - After enriched-dataset.json is created, a new filter for the terms "test automation”, "automate test”, and "automated test” were applied. Is is done after because there are job positions that are not testing-related which mentions in some manner these expressions.
+
+5. **`enriched-dataset-with-non-testing-related.json`**
    - Non-testing related job positions
 
 ## Technical Implementation
