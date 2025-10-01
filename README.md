@@ -68,39 +68,40 @@ Each job record contains the following fields:
 
 ### Work Characteristics
 - `type`: Work arrangement ("on-site", "remote", "hybrid")
-- `agile`: Boolean indicating if Agile methodology is mentioned
-- `programming`: Boolean indicating if programming skills are required
-- `automation`: Boolean indicating if test automation is involved
+- `agile*`: Boolean indicating if Agile methodology is mentioned
+- `programming*`: Boolean indicating if programming skills are required
+- `automation*`: Boolean indicating if test automation is involved
 - `yearsOfExperience`: Years of experience required (when specified)
 
 ### Testing Types
-- `webTesting`: Web application testing
-- `apiTesting`: API testing capabilities
-- `mobileTesting`: Mobile application testing
-- `desktopTesting`: Desktop application testing
+- `webTesting*`: Web application testing
+- `apiTesting*`: API testing capabilities
+- `mobileTesting*`: Mobile application testing
+- `desktopTesting*`: Desktop application testing
 
 ### Requirements
-- `higherEducationDegree`: Boolean indicating if degree is required
-- `spanish`: Boolean indicating if Spanish language skills are required
-- `continuousIntegration`: Boolean indicating CI/CD involvement
-- `certification`: Boolean indicating if certifications are required
+- `higherEducationDegree*`: Boolean indicating if degree is required
+- `spanish*`: Boolean indicating if Spanish language skills are required
+- `continuousIntegration*`: Boolean indicating CI/CD involvement
+- `certification*`: Boolean indicating if certifications are required
 
 ### Technologies and Tools
-- `testAutomationTecnologies`: Array of test automation tools mentioned
-- `tecnologies`: Array of general technologies and platforms
-- `programmingLanguages`: Array of programming languages required
+- `testAutomationTecnologies*`: Array of test automation tools mentioned
+- `tecnologies*`: Array of test management tecnologies
+- `programmingLanguages*`: Array of programming languages required
 
 ### Analysis Metrics
 - `skillsRequiredCounter`: Total count of technical skills required
-- `testingRelatedKeywords`: Array of testing-specific terms found
+- `testingRelatedKeywords*`: Array of testing-specific terms found
 - `amountOfTestingRelatedKeywords`: Count of testing keywords
-- `isTestingRelated`: Boolean confirming job relevance to testing
 
 ### Classification
 - `level`: Seniority level ("Junior", "Mid-level", "Senior", "Principal", "Lead", etc.)
 - `classification`: Job category ("Quality", "Testing", "Software Developer Engineering in Test", etc.)
 - `role`: Role type ("Engineer", "Analyst", "Manager", etc.)
 - `especialization`: Specialization area ("Automation", "Performance", etc.)
+
+(*) Properties classified based on the files in the terms folder.
 
 ## Data Files Structure
 
@@ -120,10 +121,10 @@ The `2025-09/` folder contains the complete dataset evolution through the resear
 
 3. **`enriched-dataset.json`** (3,714 records)
    - Filtered version containing only confirmed testing-related positions
-   - Quality-assured dataset for focused testing job market analysis
 
 4. **`enriched-dataset-final.json`** (3,714 records)
    - After enriched-dataset.json is created, a new filter for the terms "test automation”, "automate test”, and "automated test” were applied. Is is done after because there are job positions that are not testing-related which mentions in some manner these expressions.
+   - Quality-assured dataset for focused testing job market analysis
 
 5. **`enriched-dataset-with-non-testing-related.json`**
    - Non-testing related job positions

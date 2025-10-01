@@ -1,0 +1,16 @@
+plazo
+pruebas
+defecto
+especificación
+depuración
+incidencia
+regresión
+fusionar
+parche
+nota de lanzamiento
+interesado
+reunión
+estimación
+afirmación
+trazabilidad
+causa raíz

@@ -1,0 +1,12 @@
+Zephyr
+TestRail
+qTest
+Xray
+PractiTest
+TestLink
+SpiraTest
+HP ALM
+Octane
+QASE
+Azure DevOps
+Redmine
