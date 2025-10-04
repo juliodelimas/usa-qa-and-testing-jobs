@@ -1,0 +1,46 @@
+Mobile
+Android
+ iOS  
+React Native
+Flutter
+Xamarin
+Ionic
+Cordova
+PhoneGap
+Swift
+Kotlin
+Objective-C
+Appcelerator
+NativeScript
+Sencha Touch
+Corona SDK
+Firebase
+Realm
+Retrofit
+Alamofire
+Volley
+Fastlane
+TestFlight
+App Center
+Fabric
+Crashlytics
+HockeyApp
+Detox
+Espresso
+XCUITest
+Appium
+Robotium
+Selendroid
+UI Automator
+MonkeyRunner
+EarlGrey
+Robolectric
+Firebase Test Lab
+Bitbar
+TestFairy
+SeeTest
+Perfecto
+Google Play Console
+Apple Developer
+App Store Connect
+CocoaPods

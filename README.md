@@ -92,7 +92,7 @@ Each job record contains the following fields:
 
 ### Analysis Metrics
 - `skillsRequiredCounter`: Total count of technical skills required
-- `testingRelatedKeywords*`: Array of testing-specific terms found
+- `testingRelatedKeywords*`: Array of testing-specific keywords found
 - `amountOfTestingRelatedKeywords`: Count of testing keywords
 
 ### Classification
@@ -101,7 +101,7 @@ Each job record contains the following fields:
 - `role`: Role type ("Engineer", "Analyst", "Manager", etc.)
 - `especialization`: Specialization area ("Automation", "Performance", etc.)
 
-(*) Properties classified based on the files in the terms folder.
+(*) Properties classified based on the files in the keywords folder.
 
 ## Data Files Structure
 
@@ -122,12 +122,22 @@ The `2025-09/` folder contains the complete dataset evolution through the resear
 3. **`enriched-dataset.json`** (3,714 records)
    - Filtered version containing only confirmed testing-related positions
 
-4. **`enriched-dataset-final.json`** (3,714 records)
-   - After enriched-dataset.json is created, a new filter for the terms "test automation”, "automate test”, and "automated test” were applied. Is is done after because there are job positions that are not testing-related which mentions in some manner these expressions.
+4. **`enriched-dataset-final.json`** (2,873 records)
+   - After enriched-dataset.json is created, a new filter for the keywords "test automation”, "automate test”, and "automated test” were applied. Is is done after because there are job positions that are not testing-related which mentions in some manner these expressions.
    - Quality-assured dataset for focused testing job market analysis
 
-5. **`enriched-dataset-with-non-testing-related.json`**
+5. **`enriched-dataset-with-non-testing-related.json`** (846 records)
    - Non-testing related job positions
+
+### Sub-Folder Descriptions
+
+1. `2025-09/keywords`
+
+- Files used to enrich the positions with more information about the position and the ones used by my heuristic to identify if a position is software test-related.
+
+2. `2025-09/frequency`
+
+- Results used to create the bar graphs that you see in the slides.
 
 ## Technical Implementation
 

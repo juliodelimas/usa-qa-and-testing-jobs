@@ -1,0 +1,56 @@
+Integração Contínua
+Continuous Integration
+Continuous Delivery
+Continuous Deployment
+Pipeline
+Build Pipeline
+Deploy Pipeline
+CI/CD
+Jenkins
+GitHub Actions
+GitLab CI
+Bitbucket Pipelines
+Azure Pipelines
+Travis CI
+CircleCI
+Bamboo
+TeamCity
+GoCD
+Buddy
+Semaphore
+Drone CI
+AppVeyor
+Buildkite
+Codeship
+Spinnaker
+Argo CD
+Tekton
+Concourse CI
+Shippable
+Zuul CI
+Hudson
+CruiseControl
+Octopus Deploy
+SonarQube
+Code Coverage
+Test Coverage
+Automated Build
+Automated Deploy
+Pipeline as Code
+YAML Pipeline
+Workflow
+Artifact
+Build Automation
+Release Automation
+Deployment Automation
+Rollback
+Blue/Green Deployment
+Canary Deployment
+Feature Flags
+Environment Variables
+Infrastructure as Code
+Terraform
+Ansible
+Chef
+Puppet
+SaltStack

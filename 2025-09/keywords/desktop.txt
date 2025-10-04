@@ -1,0 +1,55 @@
+Desktop
+Electron
+NW.js
+Tauri
+GTK
+WinForms
+WPF
+UWP
+Avalonia
+MAUI
+JavaFX
+Swing
+AWT
+SWT
+Tkinter
+PyQt
+PySide
+wxPython
+Kivy
+Delphi
+Lazarus
+Cocoa
+Carbon
+MFC
+VB.NET
+C++ Builder
+Mono
+MonoDevelop
+Xamarin.Mac
+AppKit
+WinAPI
+OpenGL
+DirectX
+SDL
+SFML
+Godot
+Blender
+AutoHotkey
+AutoIt
+PowerBuilder
+FoxPro
+Visual Basic
+Visual C++
+Visual Studio Tools for Office
+Access
+FileMaker
+Paradox
+Clipper
+Clarion
+Magic xpa
+GeneXus
+Windev
+TestComplete
+UFT
+TOSCA
