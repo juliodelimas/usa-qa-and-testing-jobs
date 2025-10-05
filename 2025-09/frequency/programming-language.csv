@@ -11,7 +11,7 @@ bash,91
 vbscript,69
 scratch,59
 powershell,51
-rust,,45
+rust,49
 swift,43
 objective-c,42
 ruby,41
@@ -27,11 +27,10 @@ vba,6
 visual basic,6
 fortran,5
 crystal,5
-, rust,4
 elm,4
 scheme,4
 solidity,3
-scala,,3
+scala,3
 abap,2
 dart,2
 f#,1
